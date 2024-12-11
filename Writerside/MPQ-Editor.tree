@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="MPQ-Editor"
+                 name="MPQ-Editor"
+                 start-page="cli.md">
+
+    <toc-element topic="cli.md">
+        <toc-element topic="add.md">
+            <toc-element topic="a.md"/>
+        </toc-element>
+        <toc-element topic="chdir.md"/>
+        <toc-element topic="close.md">
+            <toc-element topic="c.md"/>
+        </toc-element>
+        <toc-element topic="compact.md"/>
+        <toc-element topic="console.md">
+        </toc-element>
+        <toc-element topic="delete.md">
+            <toc-element topic="d.md"/>
+        </toc-element>
+        <toc-element topic="exit.md">
+            <toc-element topic="quit.md"/>
+        </toc-element>
+        <toc-element topic="extract.md">
+            <toc-element topic="e.md"/>
+        </toc-element>
+        <toc-element topic="flush.md">
+            <toc-element topic="f.md"/>
+        </toc-element>
+        <toc-element topic="help.md"/>
+        <toc-element topic="htsize.md">
+            <toc-element topic="t.md"/>
+        </toc-element>
+        <toc-element topic="list.md">
+            <toc-element topic="l.md"/>
+        </toc-element>
+        <toc-element topic="mksvf.md"/>
+        <toc-element topic="move.md">
+            <toc-element topic="m.md"/>
+        </toc-element>
+        <toc-element topic="new.md">
+            <toc-element topic="n.md"/>
+        </toc-element>
+        <toc-element topic="open.md">
+            <toc-element topic="o.md"/>
+        </toc-element>
+        <toc-element topic="openpatch.md">
+            <toc-element topic="op.md"/>
+        </toc-element>
+        <toc-element topic="rename.md">
+            <toc-element topic="r.md"/>
+        </toc-element>
+        <toc-element topic="script.md"/>
+        <toc-element topic="version.md">
+            <toc-element topic="v.md"/>
+            <toc-element topic="ver.md"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>

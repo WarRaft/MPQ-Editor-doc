@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <build-profile instance="MPQ-Editor">
+        <variables>
+            <primary-color>ruby</primary-color>
+            <color-preset>contrast</color-preset>
+            <noindex-content>false</noindex-content>
+
+            <download-title>Download</download-title>
+            <download-page>http://www.zezula.net/en/mpq/download.html</download-page>
+            <showDownloadButton>true</showDownloadButton>
+
+            <webmaster>nazarpunk@gmail.com</webmaster>
+            <og-image>https://repository-images.githubusercontent.com/902033882/aff3eb25-ad7a-41b6-8be5-5d0df0b95afd
+            </og-image>
+
+            <!-- https://www.jetbrains.com/help/writerside/buildprofiles-xml.html#resizable-sidebar -->
+            <resizable-sidebar>true</resizable-sidebar>
+
+            <!-- https://www.jetbrains.com/help/writerside/offline-documentation.html-->
+            <offline-docs>true</offline-docs>
+
+            <!-- https://www.jetbrains.com/help/writerside/buildprofiles-xml.html#content-max-width -->
+            <content-max-width>99999</content-max-width>
+        </variables>
+    </build-profile>
+
+</buildprofiles>
