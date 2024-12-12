@@ -7,7 +7,7 @@ Extracts one or more files from MPQ Archive.
 Syntax
 :
 ```
-/extract MpqFile FileName [TargetDir] [/listfile FileName] [/fp] [/lower]
+extract MpqFile FileName [TargetDir] [/listfile FileName] [/fp] [/lower]
 ```
 
 | MpqFile   | Name of the MPQ to be used for this operation.            |
