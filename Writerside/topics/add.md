@@ -20,4 +20,16 @@ add MpqFile [SourceFile] [TargetName] [/wav] [/c] [/auto] [/r]
 | /r         | Recurse subdirectories.                        |
 {style=none}
 
+## Errors {id="errors"}
+
+Not enough space on the disk {id="ERROR_DISK_FULL"}
+:
+If such an error occurs when adding files, you should recreate the archive by specifying the maximum number of files.
+<br/>
+<br/>
+`example.bat`
+```batch
+```
+{src=error_disk_full.bat}
+
 </snippet>
