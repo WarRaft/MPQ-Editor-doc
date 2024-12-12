@@ -1,8 +1,8 @@
 rem Set variables.
-set MPQEditor="D:\MPQEditor.exe"
-set MapFile="D:\MyMap.w3x"
-set MapFileBackup="D:\MyMap_%date%.w3x"
-set MapTempDir="D:\MyMapTempDir"
+set MPQEditor=D:\MPQEditor.exe
+set MapFile=D:\MyMap.w3x
+set MapFileBackup=D:\MyMap_backup.w3x
+set MapTempDir=D:\MyMapTempDir
 
 rem Extract the files to a temporary folder.
 rd /s/q %MapTempDir%
