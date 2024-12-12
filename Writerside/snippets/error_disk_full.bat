@@ -5,11 +5,12 @@ set MapFileBackup=D:\MyMap_backup.w3x
 set MapTempDir=D:\MyMapTempDir
 
 rem Extract the files to a temporary folder.
-rd /s/q %MapTempDir%
+rd %MapTempDir% /s /q
 %MPQEditor% /extract %MapFile% "*" %MapTempDir% /fp
 
 rem Create backup
-xcopy /y %MapFile% %MapFileBackup%
+echo F|xcopy %MapFile% %MapFileBackup% /y
+
 rem Delete map file
 del %MapFile%
 
