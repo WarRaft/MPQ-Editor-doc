@@ -1,4 +1,4 @@
-# CLI
+# Command Line Interface
 
 <procedure>
 <step>Press <shortcut>Win+R</shortcut>.</step>
